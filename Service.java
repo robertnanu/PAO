@@ -57,7 +57,7 @@ public class Service {
         return motorizare;
     }
 
-    // 6. Vreau sa afisez toate masinile in functie de motorizare, intrucat am vazut inainte care este cea mai populara motorizare
+    // 6. Vreau sa afisez daca se pot produce anumite masini in functie de motorizare, intrucat am vazut inainte care este cea mai populara motorizare
     public int showLikes(String fuelType) throws Brick {
         Map<String, Integer> exists = new HashMap<>();
 
